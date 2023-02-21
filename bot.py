@@ -34,7 +34,7 @@ def rodar_bot():
   
   # Comando com envio de imagem
   @bot.command(pass_context=True)
-  async def ballin(ctx):
+  async def negros(ctx):
       await ctx.send(file=discord.File('media/duduperna.png'))
     
   keep_alive()
